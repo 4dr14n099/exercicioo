@@ -5,7 +5,7 @@ public class exercicioo{
         Scanner scanner = new Scanner(System.in);
         float base;
         float alt;
-        float area;
+        float a;
 
         System.out.println("Informe a base do retângulo: ");
         base = scanner.nextFloat();
@@ -13,9 +13,9 @@ public class exercicioo{
         System.out.println("Informe a altura do retângulo: ");
         alt = scanner.nextFloat();
 
-        area = base * alt;
+        a = base * alt;
 
-        System.out.println("A área do retângulo é: " + area);
+        System.out.println("A área do retângulo é: " + a);
 
         scanner.close();
     }
