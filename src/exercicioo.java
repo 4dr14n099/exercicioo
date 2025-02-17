@@ -7,10 +7,10 @@ public class exercicioo{
         float alt;
         float area;
 
-        System.out.println("Digite a base do retângulo: ");
+        System.out.println("Informe a base do retângulo: ");
         base = scanner.nextFloat();
 
-        System.out.println("Digite a altura do retângulo: ");
+        System.out.println("Informe a altura do retângulo: ");
         alt = scanner.nextFloat();
 
         area = base * alt;
