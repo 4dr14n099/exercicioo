@@ -4,16 +4,16 @@ public class exercicioo{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         float base;
-        float altura;
+        float alt;
         float area;
 
         System.out.println("Digite a base do retângulo: ");
         base = scanner.nextFloat();
 
         System.out.println("Digite a altura do retângulo: ");
-        altura = scanner.nextFloat();
+        alt = scanner.nextFloat();
 
-        area = base * altura;
+        area = base * alt;
 
         System.out.println("A área do retângulo é: " + area);
 
