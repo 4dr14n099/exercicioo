@@ -7,10 +7,10 @@ public class exercicioo{
         float alt;
         float a;
 
-        System.out.println("Informe a base do retângulo: ");
+        System.out.println("Informe a base do retangulo: ");
         b = scanner.nextFloat();
 
-        System.out.println("Informe a altura do retângulo: ");
+        System.out.println("Informe a altura do retangulo: ");
         alt = scanner.nextFloat();
 
         a = b * alt;
